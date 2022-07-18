@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav li{
+    padding: 20px;
+}
+
+.main-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-top img {
+    width: 100px;
+}
+
