@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 62%, rgba(252, 144, 35, 0.612) 100%);
 }
 
 .header {
@@ -53,4 +54,40 @@ form * {
 
 .main-foods img {
     width: 80%;
+}
+
+.main-bottom {
+    background-color: rgba(252, 144, 35, 0.612);
+}
+
+.main-bottom-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.main-bottom img {
+    width: 25%;
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 40px;
+}
+
+.icons * {
+    padding: 20px;
 }
