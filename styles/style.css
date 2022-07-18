@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: white;
 }
 
 .header {
@@ -24,9 +24,33 @@ nav li{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .main-top img {
-    width: 100px;
+    width: 80%;
 }
 
+.main-top form {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    padding: 20px;
+}
+
+form * {
+    margin: 10px;
+}
+
+.main-foods {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+.main-foods img {
+    width: 80%;
+}
