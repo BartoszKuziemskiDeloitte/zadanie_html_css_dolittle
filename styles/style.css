@@ -47,13 +47,25 @@ form * {
 
 .main-foods {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-items: center;
+    row-gap: 50px;   
+}
+
+.main-foods div {
+    border: solid 1px gray;
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
 }
 
 .main-foods img {
     width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-bottom {
