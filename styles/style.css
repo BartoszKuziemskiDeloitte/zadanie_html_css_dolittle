@@ -19,6 +19,11 @@ body {
     padding: 10px;
 }
 
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
 nav li{
     padding: 20px;
 }
@@ -110,4 +115,9 @@ footer {
 
 .icons * {
     padding: 20px;
+}
+
+.recipes img {
+    width: 80%;
+    height: 80%;
 }
